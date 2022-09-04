@@ -1,0 +1,12 @@
+elasticsearch:
+  host: 15.164.166.246:9200
+
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          elasticsearch:
+            client:
+              WIRE: trace
